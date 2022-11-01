@@ -1,0 +1,134 @@
+
+body {
+    background: rgb(255, 230, 255);
+    background-image: url("../img/wall4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background: rgb(255, 230, 255);
+}
+
+.container {
+    margin-top: 100px;
+
+}
+
+.card {
+    width: 400px;
+    background-color: lightgray;
+}
+
+.list-group-item {
+    border: 0;
+    background-color: lightgray;
+}
+
+#\#im {
+
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    top: 150px;
+    left: 150px;
+}
+
+#\#img {
+    table-layout: fixed;
+    position: absolute;
+    width: 150px;
+    top: 130px;
+    left: 650px;
+
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+#\#img td {
+    text-align: center;
+
+    position: relative;
+    font-size: 24px;
+    font-weight: bold;
+    /*margin: 100px;*/
+    padding: 0px;
+
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.1);
+    width: 150px;
+    height: 100px;
+    word-wrap: break-word;
+    max-block-size: 400px;
+    /*background-color: #bf65bd;*/
+    /*color: ghostwhite;*/
+    background-color: rgba(191, 101, 189, 0.5);
+    border-radius: 15px;
+}
+
+#\#img2 {
+    table-layout: fixed;
+    position: absolute;
+    width: 440px;
+    top: 130px;
+    left: 850px;
+    border-collapse: separate;
+    border-spacing: 10px;
+
+}
+
+#\#img2 td {
+    text-align: center;
+    /*color: ghostwhite;*/
+    background-color: rgba(191, 101, 189, 0.5);
+    position: relative;
+    font-size: 24px;
+    font-weight: bold;
+    width: 300px;
+    margin: 20px;
+    height: 100px;
+    word-wrap: break-word;
+    max-block-size: 400px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+span {
+    position: relative;
+    left: 40px;
+    color: darkred;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+input {
+
+    border-radius: 15px;
+    height: 100px;
+    border: none;
+    background-color: rgba(191, 101, 189, 0.5);
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    width: 240px;
+    top: 680px;
+    left: 950px;
+    bottom: 10px;
+}
+
+input:hover {
+
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+div span {
+    font-size: 18px;
+    position: absolute;
+    top: 730px;
+    left: 1200px;
+}
+br{
+
+    position: relative;
+    top: 750px;
+
+}

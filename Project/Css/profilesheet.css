@@ -1,0 +1,92 @@
+
+body{
+    background: rgb(255, 230, 255);
+    background-image: url("../img/wall4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+
+}
+
+div.container {
+
+
+    position: center;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    right: 25%;
+    margin-bottom: 100px;
+    background-color:#bf65bd;
+    width: 35%;
+    align-content: center;
+    -webkit-box-shadow: 0px 0px 20px grey;
+    box-shadow: 0px 0px 20px grey;
+    border-radius: 10px;
+}
+
+table {
+    position: relative;
+    align-content: center;
+}
+
+.borderless td {
+
+    padding: 20px;
+    color: white;
+    border: none;
+    border-bottom: 0.5px solid white;
+
+}
+
+.borderless td input {
+    border-radius: 10px;
+
+    margin: 5px;
+}
+
+.borderless td.label {
+    color: white;
+    font-size: 20px;
+    background-color: #bf65bd;
+
+}
+
+td.label {
+
+    width: 70%;
+
+
+}
+
+input[type=submit],button {
+
+border-radius: 10px;
+    width: 95%;
+    place-content: center;
+    background-color: #dddddd;
+
+}
+
+input[type=submit]:hover ,button:hover{
+
+    color: white;
+    background-color: #9d3e9a;
+
+}
+input[type=submit]{
+
+    width: 50%;
+
+}
+
+a{
+    color: black;
+}
+a:hover{
+    color: white;
+
+
+}

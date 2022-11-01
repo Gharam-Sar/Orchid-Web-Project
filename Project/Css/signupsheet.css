@@ -1,0 +1,18 @@
+
+body{
+    background: rgb(255, 230, 255);
+    background-image: url("../img/wall4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+
+}
+
+
+a{
+
+    font-weight: bolder;
+    font-size: 18px;
+}

@@ -1,0 +1,49 @@
+
+body {
+
+    background-image: url("../img/wall4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background: rgb(255, 230, 255);
+}
+
+.navbar {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.container{
+    position: fixed;
+    top: 15%;
+    left: 80%;
+    /*bottom: 50px;*/
+}
+.dropdown-item,#option {
+    cursor: pointer;
+}
+
+.btn{
+
+    font-weight: bold;
+    color: white;
+    background-color: #bf65bd;
+    /*height: 50px;*/
+}
+
+#wanted{
+
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    top: 15%;
+    left: 30%;
+
+}
+
+#wanted h6{
+    position: relative;
+    left: 40%;
+
+}
